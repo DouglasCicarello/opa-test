@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5293C491FC75435005BDEDF /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C471FC75435005BDEDF /* Favorites.swift */; };
+		A5293C4A1FC75435005BDEDF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C481FC75435005BDEDF /* Products.swift */; };
+		A5293C501FC754D9005BDEDF /* ProductUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C4F1FC754D9005BDEDF /* ProductUi.swift */; };
+		A5293C521FC75671005BDEDF /* ProductWs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C511FC75671005BDEDF /* ProductWs.swift */; };
+		A5293C541FC756AF005BDEDF /* Ws.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C531FC756AF005BDEDF /* Ws.swift */; };
+		A5293C571FC75716005BDEDF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C561FC75716005BDEDF /* Config.swift */; };
+		A5293C5A1FC75DBF005BDEDF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C591FC75DBF005BDEDF /* ProductCell.swift */; };
+		A5293C5D1FC7633C005BDEDF /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C5C1FC7633C005BDEDF /* Double.swift */; };
+		A5293C5F1FC7681B005BDEDF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293C5E1FC7681B005BDEDF /* UIImageView.swift */; };
+		A58135041FC853BE00FC6D86 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58135031FC853BE00FC6D86 /* String.swift */; };
+		A59F16FF1FC74C82000495A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F16FE1FC74C82000495A6 /* AppDelegate.swift */; };
+		A59F17061FC74C82000495A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59F17041FC74C82000495A6 /* Main.storyboard */; };
+		A59F17081FC74C82000495A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59F17071FC74C82000495A6 /* Assets.xcassets */; };
+		A59F170B1FC74C82000495A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59F17091FC74C82000495A6 /* LaunchScreen.storyboard */; };
+		A59F17161FC74C82000495A6 /* Opa_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F17151FC74C82000495A6 /* Opa_TestTests.swift */; };
+		A59F17211FC74C82000495A6 /* Opa_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F17201FC74C82000495A6 /* Opa_TestUITests.swift */; };
+		AC82CC1395DB8B48011E6EE7 /* Pods_Opa_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A937FC36AEA177DD85185AD /* Pods_Opa_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A59F17121FC74C82000495A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59F16F31FC74C82000495A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59F16FA1FC74C82000495A6;
+			remoteInfo = "Opa-Test";
+		};
+		A59F171D1FC74C82000495A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59F16F31FC74C82000495A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59F16FA1FC74C82000495A6;
+			remoteInfo = "Opa-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A937FC36AEA177DD85185AD /* Pods_Opa_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opa_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9FB6BFF117BC7BA8074160 /* Pods-Opa-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opa-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Opa-Test/Pods-Opa-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		85FA4CCAE2DD311D38147134 /* Pods-Opa-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opa-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Opa-Test/Pods-Opa-Test.release.xcconfig"; sourceTree = "<group>"; };
+		A5293C471FC75435005BDEDF /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Favorites.swift; path = controller/Favorites.swift; sourceTree = "<group>"; };
+		A5293C481FC75435005BDEDF /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Products.swift; path = controller/Products.swift; sourceTree = "<group>"; };
+		A5293C4F1FC754D9005BDEDF /* ProductUi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductUi.swift; path = system/class/ui/ProductUi.swift; sourceTree = "<group>"; };
+		A5293C511FC75671005BDEDF /* ProductWs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductWs.swift; path = system/class/ws/ProductWs.swift; sourceTree = "<group>"; };
+		A5293C531FC756AF005BDEDF /* Ws.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ws.swift; path = system/class/ws/Ws.swift; sourceTree = "<group>"; };
+		A5293C561FC75716005BDEDF /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = system/include/Config.swift; sourceTree = "<group>"; };
+		A5293C591FC75DBF005BDEDF /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = controller/ProductCell.swift; sourceTree = "<group>"; };
+		A5293C5C1FC7633C005BDEDF /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		A5293C5E1FC7681B005BDEDF /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		A58135031FC853BE00FC6D86 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A59F16FB1FC74C82000495A6 /* Opa-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opa-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59F16FE1FC74C82000495A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A59F17051FC74C82000495A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A59F17071FC74C82000495A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A59F170A1FC74C82000495A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A59F170C1FC74C82000495A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59F17111FC74C82000495A6 /* Opa-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opa-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59F17151FC74C82000495A6 /* Opa_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opa_TestTests.swift; sourceTree = "<group>"; };
+		A59F17171FC74C82000495A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59F171C1FC74C82000495A6 /* Opa-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opa-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59F17201FC74C82000495A6 /* Opa_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opa_TestUITests.swift; sourceTree = "<group>"; };
+		A59F17221FC74C82000495A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59F16F81FC74C82000495A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC82CC1395DB8B48011E6EE7 /* Pods_Opa_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F170E1FC74C82000495A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F17191FC74C82000495A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FC2B7BD4C68797531076A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FB6BFF117BC7BA8074160 /* Pods-Opa-Test.debug.xcconfig */,
+				85FA4CCAE2DD311D38147134 /* Pods-Opa-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		558E0435567B44534E2D5710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A937FC36AEA177DD85185AD /* Pods_Opa_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5293C461FC7540C005BDEDF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C471FC75435005BDEDF /* Favorites.swift */,
+				A5293C481FC75435005BDEDF /* Products.swift */,
+				A5293C591FC75DBF005BDEDF /* ProductCell.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A5293C4B1FC75438005BDEDF /* system */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C5B1FC7633C005BDEDF /* extension */,
+				A5293C551FC75700005BDEDF /* include */,
+				A5293C4C1FC75444005BDEDF /* class */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		A5293C4C1FC75444005BDEDF /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C4E1FC7544D005BDEDF /* ws */,
+				A5293C4D1FC75449005BDEDF /* ui */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		A5293C4D1FC75449005BDEDF /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C4F1FC754D9005BDEDF /* ProductUi.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		A5293C4E1FC7544D005BDEDF /* ws */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C511FC75671005BDEDF /* ProductWs.swift */,
+				A5293C531FC756AF005BDEDF /* Ws.swift */,
+			);
+			name = ws;
+			sourceTree = "<group>";
+		};
+		A5293C551FC75700005BDEDF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C561FC75716005BDEDF /* Config.swift */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		A5293C5B1FC7633C005BDEDF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C5C1FC7633C005BDEDF /* Double.swift */,
+				A5293C5E1FC7681B005BDEDF /* UIImageView.swift */,
+				A58135031FC853BE00FC6D86 /* String.swift */,
+			);
+			name = extension;
+			path = system/extension;
+			sourceTree = "<group>";
+		};
+		A59F16F21FC74C82000495A6 = {
+			isa = PBXGroup;
+			children = (
+				A59F16FD1FC74C82000495A6 /* Opa-Test */,
+				A59F17141FC74C82000495A6 /* Opa-TestTests */,
+				A59F171F1FC74C82000495A6 /* Opa-TestUITests */,
+				A59F16FC1FC74C82000495A6 /* Products */,
+				01FC2B7BD4C68797531076A8 /* Pods */,
+				558E0435567B44534E2D5710 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A59F16FC1FC74C82000495A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59F16FB1FC74C82000495A6 /* Opa-Test.app */,
+				A59F17111FC74C82000495A6 /* Opa-TestTests.xctest */,
+				A59F171C1FC74C82000495A6 /* Opa-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59F16FD1FC74C82000495A6 /* Opa-Test */ = {
+			isa = PBXGroup;
+			children = (
+				A5293C461FC7540C005BDEDF /* controller */,
+				A5293C4B1FC75438005BDEDF /* system */,
+				A59F16FE1FC74C82000495A6 /* AppDelegate.swift */,
+				A59F17041FC74C82000495A6 /* Main.storyboard */,
+				A59F17071FC74C82000495A6 /* Assets.xcassets */,
+				A59F17091FC74C82000495A6 /* LaunchScreen.storyboard */,
+				A59F170C1FC74C82000495A6 /* Info.plist */,
+			);
+			path = "Opa-Test";
+			sourceTree = "<group>";
+		};
+		A59F17141FC74C82000495A6 /* Opa-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A59F17151FC74C82000495A6 /* Opa_TestTests.swift */,
+				A59F17171FC74C82000495A6 /* Info.plist */,
+			);
+			path = "Opa-TestTests";
+			sourceTree = "<group>";
+		};
+		A59F171F1FC74C82000495A6 /* Opa-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A59F17201FC74C82000495A6 /* Opa_TestUITests.swift */,
+				A59F17221FC74C82000495A6 /* Info.plist */,
+			);
+			path = "Opa-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59F16FA1FC74C82000495A6 /* Opa-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59F17251FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-Test" */;
+			buildPhases = (
+				A4C91F8C0BB5298BC139D6A7 /* [CP] Check Pods Manifest.lock */,
+				A59F16F71FC74C82000495A6 /* Sources */,
+				A59F16F81FC74C82000495A6 /* Frameworks */,
+				A59F16F91FC74C82000495A6 /* Resources */,
+				D88E078132C7CBC0DDA54508 /* [CP] Embed Pods Frameworks */,
+				37C02DFCB674EE1960AF5DEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Opa-Test";
+			productName = "Opa-Test";
+			productReference = A59F16FB1FC74C82000495A6 /* Opa-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A59F17101FC74C82000495A6 /* Opa-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59F17281FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-TestTests" */;
+			buildPhases = (
+				A59F170D1FC74C82000495A6 /* Sources */,
+				A59F170E1FC74C82000495A6 /* Frameworks */,
+				A59F170F1FC74C82000495A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59F17131FC74C82000495A6 /* PBXTargetDependency */,
+			);
+			name = "Opa-TestTests";
+			productName = "Opa-TestTests";
+			productReference = A59F17111FC74C82000495A6 /* Opa-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A59F171B1FC74C82000495A6 /* Opa-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59F172B1FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-TestUITests" */;
+			buildPhases = (
+				A59F17181FC74C82000495A6 /* Sources */,
+				A59F17191FC74C82000495A6 /* Frameworks */,
+				A59F171A1FC74C82000495A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59F171E1FC74C82000495A6 /* PBXTargetDependency */,
+			);
+			name = "Opa-TestUITests";
+			productName = "Opa-TestUITests";
+			productReference = A59F171C1FC74C82000495A6 /* Opa-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59F16F31FC74C82000495A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Douglas;
+				TargetAttributes = {
+					A59F16FA1FC74C82000495A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VDK95CHZEP;
+						ProvisioningStyle = Automatic;
+					};
+					A59F17101FC74C82000495A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VDK95CHZEP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A59F16FA1FC74C82000495A6;
+					};
+					A59F171B1FC74C82000495A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VDK95CHZEP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A59F16FA1FC74C82000495A6;
+					};
+				};
+			};
+			buildConfigurationList = A59F16F61FC74C82000495A6 /* Build configuration list for PBXProject "Opa-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59F16F21FC74C82000495A6;
+			productRefGroup = A59F16FC1FC74C82000495A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59F16FA1FC74C82000495A6 /* Opa-Test */,
+				A59F17101FC74C82000495A6 /* Opa-TestTests */,
+				A59F171B1FC74C82000495A6 /* Opa-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59F16F91FC74C82000495A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59F170B1FC74C82000495A6 /* LaunchScreen.storyboard in Resources */,
+				A59F17081FC74C82000495A6 /* Assets.xcassets in Resources */,
+				A59F17061FC74C82000495A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F170F1FC74C82000495A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F171A1FC74C82000495A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C02DFCB674EE1960AF5DEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opa-Test/Pods-Opa-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C91F8C0BB5298BC139D6A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D88E078132C7CBC0DDA54508 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opa-Test/Pods-Opa-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59F16F71FC74C82000495A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5293C4A1FC75435005BDEDF /* Products.swift in Sources */,
+				A58135041FC853BE00FC6D86 /* String.swift in Sources */,
+				A5293C501FC754D9005BDEDF /* ProductUi.swift in Sources */,
+				A59F16FF1FC74C82000495A6 /* AppDelegate.swift in Sources */,
+				A5293C571FC75716005BDEDF /* Config.swift in Sources */,
+				A5293C491FC75435005BDEDF /* Favorites.swift in Sources */,
+				A5293C5A1FC75DBF005BDEDF /* ProductCell.swift in Sources */,
+				A5293C5F1FC7681B005BDEDF /* UIImageView.swift in Sources */,
+				A5293C521FC75671005BDEDF /* ProductWs.swift in Sources */,
+				A5293C5D1FC7633C005BDEDF /* Double.swift in Sources */,
+				A5293C541FC756AF005BDEDF /* Ws.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F170D1FC74C82000495A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59F17161FC74C82000495A6 /* Opa_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59F17181FC74C82000495A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59F17211FC74C82000495A6 /* Opa_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A59F17131FC74C82000495A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59F16FA1FC74C82000495A6 /* Opa-Test */;
+			targetProxy = A59F17121FC74C82000495A6 /* PBXContainerItemProxy */;
+		};
+		A59F171E1FC74C82000495A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59F16FA1FC74C82000495A6 /* Opa-Test */;
+			targetProxy = A59F171D1FC74C82000495A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A59F17041FC74C82000495A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59F17051FC74C82000495A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A59F17091FC74C82000495A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59F170A1FC74C82000495A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59F17231FC74C82000495A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A59F17241FC74C82000495A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59F17261FC74C82000495A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9FB6BFF117BC7BA8074160 /* Pods-Opa-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A59F17271FC74C82000495A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FA4CCAE2DD311D38147134 /* Pods-Opa-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A59F17291FC74C82000495A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opa-Test.app/Opa-Test";
+			};
+			name = Debug;
+		};
+		A59F172A1FC74C82000495A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opa-Test.app/Opa-Test";
+			};
+			name = Release;
+		};
+		A59F172C1FC74C82000495A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Opa-Test";
+			};
+			name = Debug;
+		};
+		A59F172D1FC74C82000495A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VDK95CHZEP;
+				INFOPLIST_FILE = "Opa-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.douglas.Opa-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Opa-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59F16F61FC74C82000495A6 /* Build configuration list for PBXProject "Opa-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59F17231FC74C82000495A6 /* Debug */,
+				A59F17241FC74C82000495A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59F17251FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59F17261FC74C82000495A6 /* Debug */,
+				A59F17271FC74C82000495A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59F17281FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59F17291FC74C82000495A6 /* Debug */,
+				A59F172A1FC74C82000495A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59F172B1FC74C82000495A6 /* Build configuration list for PBXNativeTarget "Opa-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59F172C1FC74C82000495A6 /* Debug */,
+				A59F172D1FC74C82000495A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59F16F31FC74C82000495A6 /* Project object */;
+}
